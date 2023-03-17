@@ -1,7 +1,7 @@
 #include <unistd.h>
 /**
-*main - Prints out the last part of a quoteto the standard error.
-*Return: 1 .
+*main - 101-quote.c Prints out the last part of a quote to the standard error.
+*Return: Always 0 (success) .
 */
 int main(void)
 {
