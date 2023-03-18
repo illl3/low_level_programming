@@ -4,7 +4,7 @@
 /**
   *main - Entry point
   *Description: 'get the last degit of a number'
-  *return: Always 0
+  *Return: always 0
   */
 int main(void)
 {
@@ -22,7 +22,7 @@ int main(void)
 				{
 					printf("Last digit of %d is %d and is 0\n", n, ld);
 				}
-				else 
+				else
 				{
 					printf("Last digit of %d is %d and is 0\n", n, ld);
 				}
