@@ -6,13 +6,14 @@
 *Return: value of the last digit
 */
 
-int print_las_digit(int n)
+int print_last_digit(int n)
 {
-	int x;
+	int a;
 
 	if (n < 0)
 		n = -n;
-	x = n % 10;
-	_putchar(x + '0');
-	return (x);
+
+	_putchar(a + '0');
+
+	return (a);
 }
