@@ -35,7 +35,7 @@ int _strlen_recrusion(char *s)
   *
   * Return: 1 if palindrome, 0 if not
   */
-int check_pal(char *s + len - 1)
+int check_pal(char *s, int i, int len)
 {
 	if (*(s + 1) != *(s + len - 1))
 		return (0);
